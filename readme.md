@@ -1,6 +1,8 @@
 ## Cloudflare tunneling 
 
 - Configures a cloudflare tunnel to expose a network once connected
+- Can run a local cloudflare tunnel on your linux machine
+
 
 Usage:
 - export CLOUDFLARE_API_TOKEN=<TOKEN>

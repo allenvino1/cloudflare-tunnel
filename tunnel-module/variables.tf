@@ -24,3 +24,9 @@ variable "cloudflare_tunnel_ip_routes" {
   type        = list
   default     = ["10.185.1.0/20"]
 }
+
+variable "cloudflare_tunnel_run_local" {
+  description = "Flag to run the tunnel locally"
+  type        = bool
+  default     = false
+}
